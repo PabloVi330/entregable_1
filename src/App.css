@@ -1,0 +1,46 @@
+body{
+  margin: 0%;
+}
+h1, p{
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.App{
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.CardUser{
+  background-color: white;
+  width: 300px;
+  justify-content: center;
+  border-radius:15px;
+  overflow: hidden;
+  box-shadow: 5px 5px 25px #030203;
+  color: #030203;
+}
+.Card__img{
+  width: 100%;
+}
+.Card__body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Card__footer{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Card__btn{
+  border:0;
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 2rem;
+  color: aliceblue;
+}
